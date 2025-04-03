@@ -87,3 +87,17 @@ module.exports.destroyListing = async (req, res) => {
   req.flash("success", "Listing Deleted!");
   res.redirect("/listings");
 };
+
+module.exports.searchListing = async(req,res) =>{
+  const {location} = req.query;
+  try {
+    const allListings = await Listing.find({
+      location: new RegExp(location, "i"), // Case-insensitive search
+    });
+    res.render("listings/index.ejs", { allListings });
+  } catch (error) {
+    console.error("Error searching listings:", error);
+    req.flash("error", "Failed to fetch search results");
+    res.redirect("/listings");
+  }
+}
