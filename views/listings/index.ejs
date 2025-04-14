@@ -5,13 +5,15 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 1rem; /* Add spacing below filters */
   }
 
   .filter {
     text-align: center;
-    margin-right: 2rem;
+    margin-right: 1rem; /* Adjust spacing between filters */
     margin-top: 1rem;
     opacity: 0.7;
+    flex: 1;
   }
 
   .filter:hover {
@@ -25,6 +27,9 @@
 
   .tax-info {
     display: none;
+    background-color: white; /* Set background to white */
+    padding: 0.5rem; /* Add padding for better appearance */
+    border-radius: 0.5rem; /* Optional: Add rounded corners */
   }
 
   .tax-toggle {
@@ -32,9 +37,15 @@
     border-radius: 1rem;
     height: 3rem;
     padding: 1rem;
-    margin-left: 2rem;
+    margin-top: -0.5rem; /* Add significant spacing above the tax toggle */
+    margin-bottom: 1rem;
     display: flex;
     align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-collapse{
+    background-color: white;
   }
 </style>
 
@@ -83,19 +94,19 @@
     <div><i class="fa-solid fa-ship"></i></div>
     <p>Boats</p>
   </div>
+</div>
 
-  <div class="tax-toggle">
-    <div class="form-check-reverse form-switch">
-      <input
-        class="form-check-input"
-        type="checkbox"
-        role="switch"
-        id="flexSwitchCheckDefault"
-      />
-      <label class="form-check-label" for="flexSwitchCheckDefault"
-        >Display total after taxes</label
-      >
-    </div>
+<div class="tax-toggle">
+  <div class="form-check-reverse form-switch">
+    <input
+      class="form-check-input"
+      type="checkbox"
+      role="switch"
+      id="flexSwitchCheckDefault"
+    />
+    <label class="form-check-label" for="flexSwitchCheckDefault"
+      >Display total after taxes</label
+    >
   </div>
 </div>
 
@@ -129,11 +140,10 @@
     for (info of taxInfo) {
       if (info.style.display != "inline") {
         info.style.display = "inline";
+        info.style.backgroundColor = "white"; // Ensure background is white
       } else {
         info.style.display = "none";
       }
     }
   });
 </script>
-
-
