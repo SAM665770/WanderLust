@@ -35,22 +35,17 @@ The following are some of the key features of Wander Lust:
 | **Frontend** | HTML, CSS, JavaScript, EJS (for templating dynamic views) |
 | **Backend** | Node.js with Express.js for building APIs and handling server-side logic |
 | **Database** | MongoDB (NoSQL database for storing listings, users, and reviews) |
-| **Authentication** | Passport.js with JWT/Session for secure authentication and authorization |
-| **Map API** | Radar API (for map integration and geolocation features) |
+| **Authentication** | Passport.js with Session-based authentication |
+| **Map API** | MapLibre GL (for interactive map integration and geolocation features) |
 | **Image Upload** | Multer (for handling multipart form data) and Cloudinary (for cloud-based image storage and optimization) |
 | **Templating Engine** | EJS (Embedded JavaScript templates for rendering dynamic pages) |
 | **Validation** | Joi or Express-Validator (for validating user input before processing) |
 | **Session Management** | Express-Session & Connect-Mongo (to store sessions in MongoDB for persistence) |
-| **Security** | Helmet.js (for setting secure HTTP headers), bcrypt.js (for hashing passwords), CORS (for cross-origin resource sharing) |
-| **Testing** | Jest / Mocha + Chai (for unit and integration testing) |
-| **Deployment** | Render / Vercel / Heroku (for hosting the backend & frontend) |
+| **Deployment** | Render (for hosting the backend & frontend) |
 | **Version Control** | Git & GitHub (for collaboration and version control) |
 | **Package Management** | npm (for managing dependencies) |
 | **Environment Management** | dotenv (for managing environment variables securely) |
 
-
-📁 Project Structure
-=====================
 The project is structured into the following folders:
 * **models**: Contains database schema definitions for listings, users, and reviews
 * **controllers**: Contains controller functions for handling user requests and interactions
@@ -117,6 +112,3 @@ You can explore the live version of **Wander Lust** here:
 ================
 The application was developed by [SAMRIDH PALLEDA](https://www.linkedin.com/in/samridh-palleda-048a312ba/).
 
-📝 License
-================
-The application is licensed under the MIT License. See the `LICENSE` file for details.
