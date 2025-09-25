@@ -8,7 +8,7 @@ WanderLust is a web application designed to help users discover and book their d
 
 The application allows users to create and manage their own listings, complete with detailed descriptions, images, and reviews. Users can also search for listings based on their preferences, such as location, price, and rating. With a robust review system, users can share their experiences and help others make informed decisions.
 
-WanderLust is built using a combination of modern technologies, including Node.js, Express, and MongoDB. The application is designed to be scalable and secure, ensuring a seamless user experience. With a strong focus on user engagement, Wander Lust aims to become the go-to platform for travelers and hosts alike.
+WanderLust is built using a combination of modern technologies, including Node.js, Express, and MongoDB. The application is designed to be scalable and secure, ensuring a seamless user experience. With a strong focus on user engagement, WanderLust aims to become the go-to platform for travelers and hosts alike.
 
 📖 Additional Description
 -------------------------
