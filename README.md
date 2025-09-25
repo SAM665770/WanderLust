@@ -1,14 +1,14 @@
 🚀 Project Title & Tagline
 ==========================
-**Wander Lust** - Explore the world, one destination at a time 🌏
+**WanderLust** - Explore the world, one destination at a time 🌏
 
 📖 Description
 ================
-Wander Lust is a web application designed to help users discover and book their dream destinations. With a user-friendly interface and a vast collection of listings, users can easily find and reserve their perfect getaway. Whether you're looking for a relaxing beach vacation or an adventurous city break, Wander Lust has got you covered.
+WanderLust is a web application designed to help users discover and book their dream destinations. With a user-friendly interface and a vast collection of listings, users can easily find and reserve their perfect getaway. Whether you're looking for a relaxing beach vacation or an adventurous city break, Wander Lust has got you covered.
 
 The application allows users to create and manage their own listings, complete with detailed descriptions, images, and reviews. Users can also search for listings based on their preferences, such as location, price, and rating. With a robust review system, users can share their experiences and help others make informed decisions.
 
-Wander Lust is built using a combination of modern technologies, including Node.js, Express, and MongoDB. The application is designed to be scalable and secure, ensuring a seamless user experience. With a strong focus on user engagement, Wander Lust aims to become the go-to platform for travelers and hosts alike.
+WanderLust is built using a combination of modern technologies, including Node.js, Express, and MongoDB. The application is designed to be scalable and secure, ensuring a seamless user experience. With a strong focus on user engagement, Wander Lust aims to become the go-to platform for travelers and hosts alike.
 
 📖 Additional Description
 -------------------------
@@ -105,7 +105,7 @@ The application provides the following API endpoints:
 
 🌐 Live Demo
 ================
-You can explore the live version of **Wander Lust** here:  
+You can explore the live version of **WanderLust** here:  
 👉 [Visit Wander Lust](https://wanderlust-x8g4.onrender.com/listings)
 
 👤 Author
