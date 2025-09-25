@@ -68,7 +68,7 @@ To set up the environment, create a `.env` file with the following variables:
 * **CLOUD_NAME**: Cloudinary cloud name
 * **CLOUD_API_KEY**: Cloudinary API key
 * **CLOUD_API_SECRET**: Cloudinary API secret
-* **MAP_TOKEN**: Radar map token
+* **MAP_TOKEN**: MapLibre GL map token
 * **DB_URL**: MongoDB connection string
 
 To build and deploy the application, use the following scripts:
@@ -106,7 +106,7 @@ The application provides the following API endpoints:
 🌐 Live Demo
 ================
 You can explore the live version of **WanderLust** here:  
-👉 [Visit Wander Lust](https://wanderlust-x8g4.onrender.com/listings)
+👉 [Visit WanderLust](https://wanderlust-x8g4.onrender.com/listings)
 
 👤 Author
 ================
