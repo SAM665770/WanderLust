@@ -14,7 +14,7 @@ WanderLust is built using a combination of modern technologies, including Node.j
 -------------------------
 The application also features a robust user authentication system, allowing users to create accounts and log in securely. The system uses Passport.js and MongoDB to store user data, ensuring a seamless and secure experience. With a user-friendly dashboard, users can easily manage their listings, bookings, and reviews.
 
-The application also includes a map view, allowing users to visualize listings and their locations. The map is integrated using the Radar API, providing a seamless and interactive experience. With a robust search function, users can easily find listings based on their preferences, making it easy to discover new destinations.
+The application also includes a map view, allowing users to visualize listings and their locations. The map is integrated using the MapLibre GL, providing a seamless and interactive experience. With a robust search function, users can easily find listings based on their preferences, making it easy to discover new destinations.
 
 ✨ Features
 ================
