@@ -4,7 +4,7 @@
 
 📖 Description
 ================
-WanderLust is a web application designed to help users discover and book their dream destinations. With a user-friendly interface and a vast collection of listings, users can easily find and reserve their perfect getaway. Whether you're looking for a relaxing beach vacation or an adventurous city break, Wander Lust has got you covered.
+WanderLust is a web application designed to help users discover and book their dream destinations. With a user-friendly interface and a vast collection of listings, users can easily find and reserve their perfect getaway. Whether you're looking for a relaxing beach vacation or an adventurous city break, WanderLust has got you covered.
 
 The application allows users to create and manage their own listings, complete with detailed descriptions, images, and reviews. Users can also search for listings based on their preferences, such as location, price, and rating. With a robust review system, users can share their experiences and help others make informed decisions.
 
