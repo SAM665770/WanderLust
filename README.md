@@ -1,6 +1,5 @@
-🚀 Project Title & Tagline
+🚀 **WanderLust** - Explore the world, one destination at a time 🌏
 ==========================
-**WanderLust** - Explore the world, one destination at a time 🌏
 
 📖 Description
 ================
